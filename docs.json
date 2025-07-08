@@ -74,6 +74,55 @@
               "authentication-personalization/personalization-setup",
               "authentication-personalization/sending-data"
             ]
+          },
+          {
+            "group": "Projects",
+            "icon": "folder",
+            "pages": [
+              "projects/index",
+              "projects/agents",
+              "projects/orchestration",
+              "projects/integrations",
+              "projects/deployment",
+              "projects/scaling"
+            ]
+          },
+          {
+            "group": "Integrations",
+            "icon": "plug",
+            "pages": [
+              "integrations/index",
+              "integrations/build-ins",
+              "integrations/openapi"
+            ]
+          },
+          {
+            "group": "Models",
+            "icon": "cpu",
+            "pages": [
+              "models/index",
+              "models/openai",
+              "models/anthropic",
+              "models/gemini",
+              "models/openrouter"
+            ]
+          },
+          {
+            "group": "Security",
+            "icon": "shield",
+            "pages": [
+              "security/index",
+              "security/secrets"
+            ]
+          },
+          {
+            "group": "MCP Servers",
+            "icon": "server",
+            "pages": [
+              "mcp-servers/index",
+              "mcp-servers/stdio",
+              "mcp-servers/http"
+            ]
           }
         ]
       },
@@ -116,14 +165,46 @@
             "pages": ["index", "quickstart", "development"]
           },
           {
-            "group": "Essentials",
+            "group": "Projects & Deployment",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "projects/index",
+              "projects/agents",
+              "projects/orchestration",
+              "projects/integrations",
+              "projects/deployment",
+              "projects/scaling"
+            ]
+          },
+          {
+            "group": "FAQ",
+            "pages": ["faq"]
+          }
+        ]
+      },
+      {
+        "tab": "Integrations",
+        "groups": [
+          {
+            "group": "Integrations",
+            "pages": [
+              "integrations/index",
+              "integrations/build-ins",
+              "integrations/openapi"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Models",
+        "groups": [
+          {
+            "group": "Models",
+            "pages": [
+              "models/index",
+              "models/openai",
+              "models/anthropic",
+              "models/gemini",
+              "models/openrouter"
             ]
           }
         ]
@@ -156,7 +237,7 @@
         },
         {
           "anchor": "Community",
-          "href": "https://slack.epicat.com",
+          "href": "https://discord.gg/jXUq23QYWe",
           "icon": "discord"
         },
         {

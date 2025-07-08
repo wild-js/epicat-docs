@@ -1,3 +1,7 @@
 #sidebar{
   background: #f9f9fa;
 }
+
+main {
+  view-transition-name: main;
+}
