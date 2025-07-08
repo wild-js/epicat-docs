@@ -18,7 +18,7 @@
     "dropdowns": [
       {
         "dropdown": "Documentation",
-        "icon": "book",
+        "icon": "glasses",
         "description": "Set up your documentation",
         "groups": [
           {
@@ -26,60 +26,9 @@
             "pages": ["index", "quickstart"]
           },
           {
-            "group": "Core configuration",
-            "pages": [
-              "essentials"
-            ]
-          },
-          {
-            "group": "API pages",
-            "pages": [
-              "api-playground/overview",
-              "api-playground/openapi-setup",
-              {
-                "group": "Customization",
-                "icon": "wrench",
-                "pages": [
-                  "api-playground/customization/complex-data-types",
-                  "api-playground/customization/adding-sdk-examples",
-                  "api-playground/customization/managing-page-visibility",
-                  "api-playground/customization/multiple-responses"
-                ]
-              },
-              {
-                "group": "AsyncAPI",
-                "icon": "webhook",
-                "pages": [
-                  "api-playground/asyncapi/setup",
-                  "api-playground/asyncapi/playground"
-                ]
-              },
-              {
-                "group": "MDX",
-                "icon": "heading-1",
-                "pages": [
-                  "api-playground/mdx/configuration",
-                  "api-playground/mdx/authentication"
-                ]
-              },
-              "api-playground/troubleshooting"
-            ]
-          },
-          {
-            "group": "Authentication and personalization",
-            "pages": [
-              "authentication-personalization/overview",
-              "authentication-personalization/authentication-setup",
-              "authentication-personalization/partial-authentication-setup",
-              "authentication-personalization/personalization-setup",
-              "authentication-personalization/sending-data"
-            ]
-          },
-          {
             "group": "Projects",
-            "icon": "folder",
             "pages": [
-              "projects/index",
+              "projects",
               "projects/agents",
               "projects/orchestration",
               "projects/integrations",
@@ -88,38 +37,16 @@
             ]
           },
           {
-            "group": "Integrations",
-            "icon": "plug",
-            "pages": [
-              "integrations/index",
-              "integrations/build-ins",
-              "integrations/openapi"
-            ]
-          },
-          {
-            "group": "Models",
-            "icon": "cpu",
-            "pages": [
-              "models/index",
-              "models/openai",
-              "models/anthropic",
-              "models/gemini",
-              "models/openrouter"
-            ]
-          },
-          {
             "group": "Security",
-            "icon": "shield",
             "pages": [
-              "security/index",
+              "security/overview",
               "security/secrets"
             ]
           },
           {
             "group": "MCP Servers",
-            "icon": "server",
             "pages": [
-              "mcp-servers/index",
+              "mcp-servers/overview",
               "mcp-servers/stdio",
               "mcp-servers/http"
             ]
@@ -132,14 +59,18 @@
         "icon": "terminal",
         "groups": [
           {
-            "group": "API Reference",
-            "pages": ["api-reference/introduction"]
+            "group": "API Documentation",
+            "pages": [
+              "api-reference/introduction"
+            ]
           },
           {
-            "group": "Admin",
+            "group": "Endpoint Examples",
             "pages": [
-              "api-reference/update/trigger",
-              "api-reference/update/status"
+              "api-reference/endpoint/get",
+              "api-reference/endpoint/create",
+              "api-reference/endpoint/delete",
+              "api-reference/endpoint/webhook"
             ]
           }
         ]
@@ -155,98 +86,8 @@
           }
         ]
       }
-    ],
-    "tabs": [
-      {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Get Started",
-            "pages": ["index", "quickstart", "development"]
-          },
-          {
-            "group": "Projects & Deployment",
-            "pages": [
-              "projects/index",
-              "projects/agents",
-              "projects/orchestration",
-              "projects/integrations",
-              "projects/deployment",
-              "projects/scaling"
-            ]
-          },
-          {
-            "group": "FAQ",
-            "pages": ["faq"]
-          }
-        ]
-      },
-      {
-        "tab": "Integrations",
-        "groups": [
-          {
-            "group": "Integrations",
-            "pages": [
-              "integrations/index",
-              "integrations/build-ins",
-              "integrations/openapi"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Models",
-        "groups": [
-          {
-            "group": "Models",
-            "pages": [
-              "models/index",
-              "models/openai",
-              "models/anthropic",
-              "models/gemini",
-              "models/openrouter"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API Reference",
-        "groups": [
-          {
-            "group": "API Documentation",
-            "pages": ["api-reference/introduction"]
-          },
-          {
-            "group": "Endpoint Examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://docs.epicat.com",
-          "icon": "glass"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://discord.gg/jXUq23QYWe",
-          "icon": "discord"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://blog.epicat.com",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
+
   },
   "logo": {
     "light": "/logo/light.svg",
@@ -258,17 +99,11 @@
         "label": "Support",
         "href": "mailto:hi@epicat.com"
       }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
+    ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/epicatcom",
-      "github": "https://github.com/wild-js"
+      "x": "https://x.com/epicat_com"
     }
   }
 }
