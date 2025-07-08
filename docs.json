@@ -6,6 +6,10 @@
     "primary": "#00a6f4",
     "light": "#00a6f4"
   },
+  "appearance": {
+    "default": "light",
+    "strict": true
+  },
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
