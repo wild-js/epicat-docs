@@ -56,7 +56,7 @@
               },
               {
                 "group": "MDX",
-                "icon": "markdown",
+                "icon": "heading-1",
                 "pages": [
                   "api-playground/mdx/configuration",
                   "api-playground/mdx/authentication"
@@ -151,17 +151,17 @@
       "anchors": [
         {
           "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "href": "https://docs.epicat.com",
+          "icon": "glass"
         },
         {
           "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
+          "href": "https://slack.epicat.com",
+          "icon": "discord"
         },
         {
           "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
+          "href": "https://blog.epicat.com",
           "icon": "newspaper"
         }
       ]
