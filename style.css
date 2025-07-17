@@ -2,6 +2,11 @@
   background: #f9f9fa;
 }
 
-main {
+#sidebar-content{
+  padding-top: 2rem !important;
+}
+
+main,
+#content-container {
   view-transition-name: main;
 }
