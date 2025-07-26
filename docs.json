@@ -19,18 +19,40 @@
       {
         "dropdown": "Documentation",
         "icon": "glasses",
-        "description": "Set up your documentation",
+        "description": "Get started with Epicat",
         "groups": [
           {
             "group": "Getting started",
-            "pages": ["index", "quickstart"]
+            "pages": ["index", "projects", "quickstart"]
           },
           {
-            "group": "Projects",
+            "group": "Features",
             "pages": [
-              "projects",
+              {
+                "group": "Integrations",
+                "pages": [
+                  "integrations",
+                  "integrations/build-ins",
+                  "integrations/slack"
+                ]
+              },
+              {
+                "group": "Models",
+                "pages": [
+                  "models",
+                  "models/openai",
+                  "models/anthropic",
+                  "models/gemini",
+                  "models/openrouter"
+                ]
+              },
               "projects/agents",
-              "projects/orchestration",
+              "projects/orchestration"
+            ]
+          },
+          {
+            "group": "Advanced",
+            "pages": [
               "projects/integrations",
               "projects/deployment",
               "projects/scaling"
